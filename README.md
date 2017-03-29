@@ -1,0 +1,1 @@
+# shinedaisiki.github.io
