@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google preloader</title>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
+    <style class="cp-pen-styles">
+        body {
+        background: lightyellow;
+        height: 100vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        display: -webkit- flex;
+        display: -ms- flex;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .load1 {
+        width: 200px;
+        height: 200px;
+        border-style: solid;
+        border-width: 3px;
+        border-top-color: #4885ed;
+        border-right-color:lightyellow;
+        border-bottom-color: lightyellow;
+        border-left-color: #4885ed;
+        border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        display: -webkit- flex;
+        display: -ms- flex;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-animation: spin1 1.8s linear infinite;
+        animation: spin1 1.8s linear infinite;
+    }
+
+    .load2 {
+        width: 180px;
+        height: 180px;
+        border-style: solid;
+        border-width: 3px;
+        border-top-color: lightyellow;
+        border-right-color: #db3236;
+        border-bottom-color: #db3236;
+        border-left-color: lightyellow;
+        border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        display: -webkit- flex;
+        display: -ms- flex;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-animation: spin2 1.2s linear infinite;
+        animation: spin2 1.2s linear infinite;
+    }
+
+    .load3 {
+        width: 160px;
+        height: 160px;
+        border-style: solid;
+        border-width: 3px;
+        border-top-color: #f4c20d;
+        border-right-color: lightyellow;
+        border-bottom-color: lightyellow;
+        border-left-color: #f4c20d;
+        border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        display: -webkit- flex;
+        display: -ms- flex;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-animation: spin1 1.4s linear infinite;
+        animation: spin1 1.4s linear infinite;
+    }
+
+    .load4 {
+        width: 140px;
+        height: 140px;
+        border-style: solid;
+        border-width: 3px;
+        border-top-color: lightyellow;
+        border-right-color: #4885ed;
+        border-bottom-color: #4885ed;
+        border-left-color: lightyellow;
+        border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        display: -webkit- flex;
+        display: -ms- flex;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-animation: spin2 1.6s linear infinite;
+        animation: spin2 1.6s linear infinite;
+    }
+
+    .load5 {
+        width: 120px;
+        height: 120px;
+        border-style: solid;
+        border-width: 3px;
+        border-top-color: #3cba54;
+        border-right-color: lightyellow;
+        border-bottom-color: lightyellow;
+        border-left-color: #3cba54;
+        border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        display: -webkit- flex;
+        display: -ms- flex;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-animation: spin1 2s linear infinite;
+        animation: spin1 2s linear infinite;
+    }
+
+    .load6 {
+        width: 100px;
+        height: 100px;
+        border-style: solid;
+        border-width: 3px;
+        border-top-color: lightyellow;
+        border-right-color: #db3236;
+        border-bottom-color: #db3236;
+        border-left-color: lightyellow;
+        border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        display: -webkit- flex;
+        display: -ms- flex;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-animation: spin2 2.3s linear infinite;
+        animation: spin2 2.3s linear infinite;
+    }
+
+    .fa {
+        position: fixed;
+        font-size: 2.3em;
+        color: #4885ed;
+        -webkit-animation: colorchange 5s 0s linear infinite;
+        animation: colorchange 5s 0s linear infinite;
+    }
+
+    @-webkit-keyframes spin1 {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+        100% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes spin1 {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+        100% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+    @-webkit-keyframes spin2 {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+        100% {
+            -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+        }
+    }
+    @keyframes spin2 {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+        100% {
+            -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+        }
+    }
+    @-webkit-keyframes colorchange {
+        10% {
+            color: #4885ed;
+        }
+        20% {
+            color: #db3236;
+        }
+        40% {
+            color: #f4c20d;
+        }
+        60% {
+            color: #4885ed;
+        }
+        80% {
+            color: #3cba54;
+        }
+        90% {
+            color: #db3236;
+        }
+        100% {
+            color: #4885ed;
+        }
+    }
+        @keyframes colorchange {
+            10% {
+                color: #4885ed;
+            }
+            20% {
+                color: #db3236;
+            }
+            40% {
+                color: #f4c20d;
+            }
+            60% {
+                color: #4885ed;
+            }
+            80% {
+                color: #3cba54;
+            }
+            90% {
+                color: #db3236;
+            }
+            100% {
+                color: #4885ed;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="load1">
+    <div class="load2">
+        <div class="load3">
+            <div class="load4">
+                <div class="load5">
+                    <div class="load6">
+                        <i class="fa fa-google"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
